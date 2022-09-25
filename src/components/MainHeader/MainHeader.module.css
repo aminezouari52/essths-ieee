@@ -7,10 +7,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #03045e;
+  /* background: #03045e; */
   padding: 0 2rem;
+  z-index: 1;
 }
 
 .main-header h4 {
   color: white;
+}
+
+.main-header img {
+  cursor : pointer;
+}
+
+.main-header img:hover {
+  opacity: 0.6;
 }

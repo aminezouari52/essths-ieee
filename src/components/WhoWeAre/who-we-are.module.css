@@ -1,0 +1,20 @@
+.content {
+  background-color: #0077b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 10px;
+  margin:  0;
+  color: #fff;
+}
+
+.content .logo {
+  background-image: url('../../images/logo-white.png');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+  height: 100px;
+  min-height: 150px;
+  width: 400px;
+}
