@@ -1,16 +1,18 @@
-import MainHeader from './components/MainHeader/MainHeader'
-import Home from './components/Home/Home'
-import WhoWeAre from './components/WhoWeAre/who-we-are'
-import Events from './components/Events/Events'
+import { Routes, Route } from 'react-router-dom'
+
+import Header from './components/Header/Header'
+import Home from './pages/Home'
+import About from './pages/about-us'
 import Footer from './components/Footer/Footer'
 
 function App() {
   return (
     <>
-      <MainHeader />
-      <Home />
-      <WhoWeAre />
-      <Events />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
       <Footer />
     </>
   )

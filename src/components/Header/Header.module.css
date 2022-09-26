@@ -1,4 +1,4 @@
-.main-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -7,19 +7,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background: #03045e; */
   padding: 0 2rem;
   z-index: 1;
+  transition: all 0.3s ease;
 }
 
-.main-header h4 {
-  color: white;
+.header.scroll {
+  background-color: #555555;
+  transition: all 0.3s ease;
 }
 
-.main-header img {
+.header img {
   cursor : pointer;
+  transition: all 0.3s ease;
 }
 
-.main-header img:hover {
+.header img:hover {
   opacity: 0.6;
+  transition: all 0.3s ease;
 }
